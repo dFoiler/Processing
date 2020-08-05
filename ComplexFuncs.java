@@ -327,7 +327,7 @@ void draw() {
   println(frameRate); // For debugging purposes. Meh
   if(frameCount % 5 == 0)
   {
-    save("img_"+frameCount+".png");
+    //save("img_"+frameCount+".png");
   }
 }
 int button = 1; // Have we pressed a button? Assume so.
